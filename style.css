@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: black;
+display: grid;
+}
+.left{
+    padding: 10px;
+    width: 23vw;
+}
+.right img{
+    gap: 500px;
+    width: 17px;
+    height: 17px;
+}
+.right{
+    margin-top: 10px;
+}
+.righttop{
+    justify-content: space-between;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 17px;
+    width: 73vw;
+}
+.rightbottom{
+    margin-top: 0px;
+    height: 50vw;
+}
+.rightbottom h2{
+    padding: 10px;
+    margin-left: 20px;
+}
+.leftone{
+    padding: 20px;
+    height: 120px;
+}
+.lefttwo{
+    margin-top: 10px;
+    background-color: black;
+    height: 600px;
+}
+
+.leftone ul li{
+    margin-left: -10px;
+    padding: 10px;
+    display: flex;
+    font-size: larger;
+    gap: 15px;
+    width: 27px;
+    list-style: none;
+}
+.lefttwo ul li{
+    margin-right: 500px;
+    align-items: center;
+    font-size: larger;
+    margin-left: 20px;
+    gap: 15px;
+    display: flex;
+    width: 27px;
+    list-style: none;
+}
+.lefttwoone{
+    margin: 8px;
+    padding: 20px;
+    margin-top: 25px;
+    height: 100px;
+}
+.lefttwotwo{
+    font-size: 15px;
+    margin: 8px;
+    padding: 20px;
+    margin-top: 25px;
+    height: 100px;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-colour{
+    background-color: black;
+    color: white;
+}
+.bg-grey{
+    background-color: #121212;
+}
+.leftone img{
+    width: 80px;
+}
+.plus{
+    justify-content: right;
+    align-items: right;
+}
+.bg-lightgrey{
+    background-color: #242424;
+}
+.bg-right{
+    background-color: #242424;
+}
+.login{
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    margin-top: -2px;
+    background-color: #f6f6f6;
+    font-size: large;
+    height: 45px;
+    border-radius: 20px;
+    width: 110px;
+}
+.signup{
+    margin-right: 35px;
+    font-size: large;
+    color: white;
+    background-color: #121212;
+    border-color:#121212;
+    text-decoration: none;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+}
+.loginsignup{
+    margin-top: -5px;
+    display: flex;
+}
+.download{
+    margin-right: 20px;
+    font-size: large;
+    color: white;
+    background-color: #121212;
+    border-color:#121212;
+    text-decoration: none;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+}
+.support{
+    margin-right: 10px;
+    font-size: large;
+    color: white;
+    background-color: #121212;
+    border-color:#121212;
+    text-decoration: none;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+}
+.lighttext{
+    opacity: 0.5;
+    font-weight: lighter;
+    background-color: transparent;
+}
